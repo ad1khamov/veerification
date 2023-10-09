@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Verification</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Gabarito&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Mrs+Saint+Delafield&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Business details</h2>
+			<form>
+				<label for="fname">Brand name (In English)</label>
+				<input
+					id="fname"
+					type="text"
+					class="brand"
+					name="firstname"
+					placeholder="Brand name (In English)"
+				/>
+				<span class="errorbrand"></span>
+
+				<label for="lname">Description (optional)</label>
+				<input type="text" class="description" name="lastname" placeholder="Description" />
+				<span class="errordescription"></span>
+
+				<label for="lname">Description (URL)</label>
+				<input type="text" class="website" name="lastname" placeholder="Website (URL)" />
+				<span class="errorurl"></span>
+
+				<label for="country">Country</label>
+				<select class="country" name="country">
+					<option value="australia">United Arab Emirates 🇦🇪</option>
+					<option value="canada">United States 🇺🇸</option>
+					<option value="usa">Canada 🇨🇦</option>
+				</select>
+
+				<label for="category">Category</label>
+				<select class="category" name="country">
+					<option value="Customer Success">Customer Success</option>
+					<option value="Dev Ops">Dev Ops</option>
+					<option value="Data Analytics">Data Analytics</option>
+					<option value="Finance">Finance</option>
+					<option value="Productivity Tools">Productivity Tools</option>
+					<option value="People & HR">People & HR</option>
+					<option value="Product">Product</option>
+					<option value="Sales Marketing">Sales Marketing</option>
+					<option value="Customer Support">Customer Support</option>
+					<option value="other">Other</option>
+				</select>
+				<button class="submit" type="submit">Next</button>
+			</form>
+		</div>
+
+		<div class="container1">
+			<form class="form1">
+				<label for="name">First Name</label>
+				<input id="name" type="text" class="brand" name="firstname" placeholder="First Name" />
+				<span class="errorbrand1"></span>
+
+				<label for="nickname">Last Name</label>
+				<input
+					id="nickname"
+					type="text"
+					class="description"
+					name="lastname"
+					placeholder="Last Name"
+				/>
+				<span class="errordescription1"></span>
+
+				<button class="submit1" type="submit">Next</button>
+			</form>
+		</div>
+
+		<div class="container2">
+			<h2>Bank account details</h2>
+			<form class="form2">
+				<label for="fname">Beneficiary name</label>
+				<input
+					id="branis"
+					type="text"
+					class="brand"
+					name="firstname"
+					placeholder="Beneficiary name, e.g Alphabet inc."
+				/>
+				<span class="errorbrand3"></span>
+
+				<label for="iban">IBAN</label>
+				<input id="iban" type="text" class="description" name="lastname" placeholder="IBAN" />
+				<span class="errordescription3"></span>
+
+				<label for="banck">Bank carta</label>
+				<input id="banck" type="text" class="website" name="lastname" placeholder="Bank carta " />
+				<span class="errorurl3"></span>
+
+				<label for="swift1">SWIFT</label>
+				<input id="swift1" type="text" class="website" name="lastname" placeholder="SWIFT  " />
+				<span class="swift"></span>
+
+				<label for="category">Category</label>
+				<select id="category" name="country">
+					<option value="USA">USA</option>
+					<option value="USB">UZB</option>
+					<option value="SAR">DINOR</option>
+					<option value="CAD">LIRA</option>
+					<option value="OMR">RUB</option>
+					<option value="EUR">EUR</option>
+					<option value="GBP">TENGE</option>
+					<option value="QAR">QAR</option>
+				</select>
+				<button class="next" type="submit">Next</button>
+			</form>
+		</div>
+	</body>
+</html>

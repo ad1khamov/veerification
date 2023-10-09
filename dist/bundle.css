@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gabarito";
+	user-select: none;
+}
+*::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+body {
+	display: grid;
+	place-items: center;
+
+	gap: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: #080b09f7;
+}
+.container {
+	box-sizing: border-box;
+	display: none; /* flex */
+	flex-direction: column;
+	gap: 8px;
+	width: 90vh;
+
+	justify-content: center;
+	align-items: center;
+	background-color: #0dc5692d;
+	padding: 5px;
+	border-radius: 25px;
+	overflow: scroll;
+	scroll-behavior: unset;
+}
+input {
+	width: 80vh;
+	height: 50px;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+	transition: border-color 0.3s ease;
+}
+input:focus {
+	border-color: #ff8c00;
+	box-shadow: 0 0 5px #ff8c00;
+}
+.section {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+select {
+	width: 80vh;
+	height: 50px;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+	transition: border-color 0.3s ease;
+	font-size: 20px;
+}
+h2 {
+	font-size: 30px;
+	color: #fff200;
+}
+label {
+	font-size: 20px;
+	color: #fff200;
+}
+option {
+	font-size: 20px;
+}
+
+.submit {
+	width: 150px;
+	height: 50px;
+	margin-left: 190px;
+	font-size: 20px;
+	padding: 0;
+	background-color: #0dc5692d;
+	color: #fff200;
+	border: none;
+	box-shadow: 2px 1px black inset;
+}
+.errorbrand,
+.errorurl,
+.errordescription {
+	color: red;
+	font-size: 18px;
+}
+
+/* login  */
+
+.container1 {
+	display: flex;
+	box-sizing: border-box;
+	/* display: flex; */
+	flex-direction: column;
+	gap: 8px;
+	width: 85vh;
+	justify-content: center;
+	align-items: start;
+	background-color: #0dc5692d;
+	padding: 15px;
+	border-radius: 25px;
+	overflow: scroll;
+	scroll-behavior: unset;
+	margin-top: 150px;
+}
+.submit1 {
+	width: 150px;
+	height: 50px;
+	margin-left: 190px;
+	font-size: 20px;
+	padding: 0;
+	background-color: #0dc5692d;
+	color: #fff200;
+	border: none;
+	box-shadow: 2px 1px black inset;
+}
+.errorbrand1,
+.errordescription1 {
+	color: red;
+	font-size: 18px;
+}
+
+/* carta  */
+
+.container2 {
+	display: none;
+	box-sizing: border-box;
+	/* display: flex; */
+	flex-direction: column;
+	gap: 8px;
+	width: 85vh;
+
+	justify-content: center;
+	align-items: start;
+	background-color: #0dc5692d;
+	padding: 15px;
+	border-radius: 25px;
+	overflow: scroll;
+	scroll-behavior: unset;
+	/* margin-top: 150px; */
+}
+.next {
+	width: 150px;
+	height: 50px;
+	margin-left: 190px;
+	font-size: 20px;
+	padding: 0;
+	background-color: #0dc5692d;
+	color: #fff200;
+	border: none;
+	box-shadow: 2px 1px black inset;
+}
+
+.swift,
+.errorurl3,
+.errordescription3,
+.errorbrand3 {
+	color: red;
+	font-size: 18px;
+}
+
